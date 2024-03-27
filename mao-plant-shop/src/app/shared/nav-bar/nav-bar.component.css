@@ -1,0 +1,32 @@
+.navflexcontainer {
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #bbd4ce;
+}
+
+.navflexcontainer ul,
+li {
+  display: inline;
+  max-width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.navflexitem {
+  padding: 0.5em;
+  background-color: #bbd4ce;
+  font-style: oblique;
+  font-size: 0.9em;
+  text-shadow: 0.2em 0.2em 0 rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.whitespace {
+  flex: 3;
+}
+
+.socialmedia {
+  flex: 0.1;
+}
